@@ -1,0 +1,324 @@
+.welcome {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 39px;
+  /* identical to box height, or 130% */
+
+
+  /* Aon/Black */
+
+  color: #001B2D;
+  width: 529.79px;
+  height: 50px;
+  /* Aon/Black */
+
+  border-bottom: 1px solid #001B2D;
+}
+
+.note-1 {
+  p {
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    /* or 117% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* Aon/Black */
+
+    color: #001B2D;
+  }
+}
+
+.scroller {
+  height: 46px;
+  width: 46px;
+}
+
+.formRow {
+  background-color: #001B2D;
+
+  .abc-img {
+    height: 35px;
+    width: 358px;
+    border-radius: 0px;
+    object-fit: none;
+    margin-top: 58px;
+
+  }
+}
+
+.media-row {
+  margin-top: 92px;
+
+  img {
+    height: 70.79145812988281px;
+    width: 70.6931381225586px;
+    border-radius: 0px;
+    object-fit: contain;
+  }
+
+  .media-body {
+    //styleName: Aon/h5;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+
+  }
+}
+
+.logo1 {
+  width: 196px;
+  height: 56px;
+}
+
+.login {
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 1px;
+  text-align: center;
+
+}
+
+.input {
+  //styleName: form-placeholder;
+  font-family: Roboto;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 14px;
+  letter-spacing: 0px;
+  text-align: left;
+  border-radius: 0;
+
+  &::placeholder {
+    //styleName: form-placeholder;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 14px;
+    letter-spacing: 0px;
+    text-align: left;
+
+  }
+}
+
+.login-form {
+  max-width: 60%;
+}
+
+.btn-primary {
+
+  /* Aon/Light blue */
+
+  background: #028EB2;
+  border-radius: 4px;
+  height: 30px;
+  width: 80px;
+  //styleName: btn;
+  font-family: Roboto;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #FFFFFF;
+
+}
+
+.button-login {
+  p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: flex-end;
+  }
+}
+
+.request-note {
+  width: 313px;
+  height: 45px;
+  margin-top: 100px;
+  /* Aon/White */
+
+  background: #FFFFFF;
+  border-radius: 25px 25px 0px 0px;
+
+  /* h2 */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 1px;
+
+  /* Aon/Blue */
+
+  color: #01416E;
+}
+
+.abc {
+
+  width: 100%;
+}
+
+.stag {
+.card{
+    margin-bottom: 27px;
+
+    img {
+      height: 65px;
+      width: 269px;
+      border-radius: 0px;
+
+    }
+  }
+}
+
+.industry {
+  //styleName: Aon/h2 - 20;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 1px;
+  text-align: left;
+  width: 200px;
+  border-bottom: 1px solid black;
+  justify-content: center;
+}
+
+.note2 {
+  font-family: Roboto;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.covid19 {
+  height: 278px;
+  width: 396px;
+  border-radius: 0px;
+
+}
+
+.news {
+  li {
+    list-style: none;
+
+    a {
+      font-family: Roboto;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 54px;
+      letter-spacing: 0px;
+      text-align: left;
+      text-decoration: underline;
+    }
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 540px) {
+  .welcome {
+    font-size: 20px !important;
+    width: 200px !important;
+  }
+  .note-1 {
+    p {
+      font-size: 18px !important;
+    }
+  }
+  .formRow {
+    padding-bottom: 38px !important;
+    .abc-img {
+      height: 31px !important;
+      width: 290px !important;
+      object-fit: contain !important;
+    }
+  }
+  .request-note {
+    width: 240px !important;
+    height: 32px !important;
+    font-size: 16px !important;
+  }
+  .login-form {
+    max-width: 80% !important;
+  }
+  .stag {
+  .card{
+      img {
+        height: 50px !important;
+        width: 190px !important;
+      }
+    }
+  }
+  .covid19{
+    height: auto !important;
+    width: 90% !important;
+  }
+  .media-row{
+    margin-top: 38px!important;
+    .col-md-4{
+      margin-top: 10px;
+    }
+  }
+  .abc{
+    display: none !important;
+  }
+  .logo1{
+    width: 165px !important;
+    height: 46px !important;
+    margin-top: 80px !important;
+  }
+  .news{
+    padding-left: 0;
+    li{
+      a{
+        font-size: 12px !important;
+        line-height: 30px !important;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1335px) {
+  .stag {
+    .card{
+      img {
+        width: 90% !important;
+        height: auto!important;
+      }
+    }
+  }
+}

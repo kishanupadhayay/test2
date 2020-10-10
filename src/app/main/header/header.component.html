@@ -1,0 +1,39 @@
+<nav class="navbar navbar-expand-lg">
+  <a class="navbar-brand" href="#">
+    <img class="img-fluid logo" [src]="'../assets/images/logo.png'">
+  </a>
+  <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <img class="bar" [src]="'../assets/images/ic-three-bar.png'">
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item my-auto d-flex align-items-center">
+        <a class="nav-link" href="#">
+          <div class="header-content">
+            <img class="my-auto" [src]="'../assets/images/ichome.svg'">
+            <p>Home</p>
+          </div>
+        </a>
+      </li>
+      <li class="nav-item my-auto d-flex align-items-center">
+        <a class="nav-link" href="#">
+            <div class="header-content">
+              <img class="my-auto bell" [src]="'../assets/images/icnotification.png'">
+            </div>
+        </a>
+      </li>
+      <li class="nav-item dropdown my-auto d-flex align-items-center">
+        <a class="nav-link dropdown-toggle drop" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Steven Mitrick
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>

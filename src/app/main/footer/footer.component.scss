@@ -1,0 +1,72 @@
+.support{
+  //styleName: Aon/h5;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color:  #01416E;
+
+}
+.list1{
+  list-style: none;
+  li{
+    //styleName: Aon/p;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #4C4D4F;
+    padding-right: 10px;
+  }
+}
+.list2{
+  list-style: none;
+  li{
+    //styleName: h6;
+    font-family: Roboto;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-right: 5px;
+  }
+}
+.list3{
+  list-style: none;
+  li{
+    img{
+      width: 24px;
+      height: 24px;
+    }
+    margin-right: 5px;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 540px){
+  .list2{
+    float: left !important;
+    li{
+      text-align: left !important;
+    }
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1162px){
+  .list2{
+    display: block !important;
+    float: left !important;
+    li{
+      text-align: left !important;
+    }
+  }
+  .list1{
+    display: block !important;
+  }
+}

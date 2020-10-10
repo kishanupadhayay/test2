@@ -1,0 +1,181 @@
+<div class="collage mt-1">
+  <img [src]="'../assets/images/collage.png'" class="img-fluid">
+</div>
+<div class="container  mt-4">
+  <div class="row">
+    <div class="col-md-12">
+      <h4 class="welcome text-center mx-auto">
+        Welcome to Abc Wrap
+      </h4>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12 note-1 mt-2">
+      <p>
+        For contractors, project owners, and developers, Abc is the market leader in owner and contractor wrap-up
+        programs as well as wrap up bonding and other home building insurance products and risk assessment services.
+      </p>
+      <p>
+        We field the largest and most trusted network of construction experts anywhere in the world - a team of
+        professionals covering every major sector of the industry.
+      </p>
+    </div>
+    <div class="col-md-12 text-center">
+      <img [src]="'../assets/images/Scroller.png'" class="scroller mt-5 mb-3">
+    </div>
+  </div>
+</div>
+<div class="row formRow mx-0">
+  <div class="col-md-7 border-right border-light position-relative">
+    <img [src]="'../assets/images/abc-links-img.png'" class="abc-img d-block mx-auto">
+
+    <div class="row media-row px-4">
+      <div class="col-md-4">
+        <div class="media">
+          <img [src]="'../assets/images/dolor.svg'" alt="Generic placeholder image" class="mr-3">
+          <div class="media-body align-self-center text-light">
+            Wrap up 101
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="media">
+          <img [src]="'../assets/images/user.svg'" alt="Generic placeholder image" class="mr-3">
+          <div class="media-body align-self-center text-light">
+            Office
+            Location Map
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="media">
+          <img [src]="'../assets/images/filling.svg'" alt="Generic placeholder image" class="mr-3">
+          <div class="media-body align-self-center text-light">
+            Electronic Filing of Wrap Up Bonds
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row abc m-0 p-0">
+      <div class="col-md-12 m-0 p-0 text-center">
+        <h6 class="request-note mx-auto mb-0 justify-content-center"> Request Information</h6>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-5">
+    <img [src]="'../assets/images/logo.png'" class="logo1 d-block mx-auto mt-3">
+    <h6 class="text-uppercase login mt-3 text-light text-center">Login</h6>
+
+    <div class="login-form mx-auto">
+
+      <form [formGroup]="form" (ngSubmit)="submit()">
+        <div class="form-group">
+          <input class="form-control input" formControlName="username" placeholder="Username" type="email">
+          <span *ngIf="submitted && f.username.errors">
+            <small *ngIf="f.username.errors.required"  class="form-text text-muted">Username is required.</small>
+          </span>
+        </div>
+        <div class="form-group">
+          <input class="form-control input" formControlName="password" id="exampleInputPassword1" placeholder="Password" type="password">
+          <span *ngIf="submitted && f.password.errors">
+            <small *ngIf="f.password.errors.required"  class="form-text text-muted">Password is required.</small>
+          </span>
+        </div>
+        <div class="d-flex button-login float-right align-items-baseline">
+          <p class="mr-3 text-light">Forgot your password? </p>
+          <button class="btn btn-primary" type="submit">Login</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<div class="row stag mx-0 px-4">
+  <div class="col-md-12 mt-4 mb-5 ">
+    <p class="industry text-center mx-auto">Industry Links</p>
+  </div>
+  <div class="col-lg-3 col-md-6 mb-2">
+    <div class="card">
+      <div class="card-body text-center">
+        <img [src]="'../assets/images/thesurety.png'">
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6 mb-2">
+    <div class="card">
+      <div class="card-body text-center">
+        <img [src]="'../assets/images/thesurety.png'">
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6 mb-2">
+    <div class="card">
+      <div class="card-body text-center">
+        <img [src]="'../assets/images/thesurety.png'">
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6  mb-2">
+    <div class="card">
+      <div class="card-body text-center">
+        <img [src]="'../assets/images/thesurety.png'">
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6 mb-2">
+    <div class="card">
+      <div class="card-body text-center">
+        <img [src]="'../assets/images/thesurety.png'">
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6 mb-2">
+    <div class="card">
+      <div class="card-body text-center">
+        <img [src]="'../assets/images/thesurety.png'">
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6 mb-2">
+    <div class="card">
+      <div class="card-body text-center">
+        <img [src]="'../assets/images/thesurety.png'">
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6 mb-2">
+    <div class="card">
+      <div class="card-body text-center">
+        <img [src]="'../assets/images/thesurety.png'">
+      </div>
+    </div>
+  </div>
+
+</div>
+<div class="row formRow mx-0 mt-5">
+  <div class="col-md-8 border-right border-light position-relative">
+    <h5 class="note2 mt-3 ml-lg-3 ml-0">Professional Insights</h5>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <img class="covid19 my-5 " [src]="'../assets/images/covid19.png'">
+      </div>
+    </div>
+
+  </div>
+  <div class="col-md-4">
+    <h5 class="note2 mt-3 ml-lg-3 ml-0">News and Highlights</h5>
+    <div class="list-one">
+      <ul class="text-light news">
+        <li>
+          <a>2020 April Wrap Up Market Update - Contract</a>
+        </li>
+        <li>
+          <a>2020 April Wrap Up Market Update - Contract</a>
+        </li>
+        <li>
+          <a>2020 April Wrap Up Market Update - Contract</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
