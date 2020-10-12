@@ -8,6 +8,7 @@ import { FooterComponent } from './main/footer/footer.component';
 import { ContentComponent } from './main/content/content.component';
 import { LogoutComponent } from './main/logout/logout.component';
 import {ReactiveFormsModule} from '@angular/forms';
+import {HelperService} from './helper.service';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,7 @@ import {ReactiveFormsModule} from '@angular/forms';
         AppRoutingModule,
         ReactiveFormsModule
     ],
-  providers: [],
+  providers: [HelperService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

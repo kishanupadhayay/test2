@@ -1,7 +1,16 @@
 <div class="logout d-flex">
  <div class="row my-auto mx-auto">
-   <div class="col-md-12 text-center">
-     <button class="btn btn-danger" routerLink="/">logout</button>
+   <div class="col-md-4 text-center">
+
+     <div class="card">
+       <div class="card-header">
+         <p>Hello {{message}}</p>
+       </div>
+       <div class="card-body">
+         <button class="btn btn-danger" (click)="logout()">logout</button>
+       </div>
+     </div>
+
    </div>
  </div>
 </div>
