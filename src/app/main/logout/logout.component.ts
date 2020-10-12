@@ -15,7 +15,6 @@ export class LogoutComponent implements OnInit {
 
   ngOnInit(): void {
     this.helperService.currentMessage.subscribe(message => this.message = message);
-    console.log('mess', this.message);
     if (this.message === '') {
       this.router.navigate(['/home']);
     }
